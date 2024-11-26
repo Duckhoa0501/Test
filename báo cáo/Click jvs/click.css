@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.285);
+    font-family: Arial, sans-serif;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background: rgba(97, 97, 214, 0.342);
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 50px 100px;
+    transition: background 0,4s ease, color 0,3s ease;
+    border-radius: 25px;
+}
+
+.menu:hover {
+    background-color: brown;
+    color: white;
+    transition: color 0.3s, ease-in-out 0.4s;
+}
+
+.menu i{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.menu-ideas {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: white;
+    width: 50%;
+    margin: 150px;
+    gap: 20px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+#close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: rgb(238, 159, 14);
+    font-size: 50px;
+    cursor: pointer;
+    transition: color 0.3s, ease-in-out 0.4s;
+}
+
+#close:hover {
+    transition: color 0.3s, ease-in-out 0.4s;
+    color: brown;
+}
+/* =================================THÊM HIỆU ỨNG CSS BẤT KỲ========================================= */
+/* 
+    Bao gồm có các thẻ Class = menu, menu-ideas, close
+    Thêm nữa có các thẻ Id = open, close để thực hiện 
+    Có thể sáng tạo thêm tùy vào tư duy của sinh viên. 
+*/
+
+/* =================================Code bên dưới này========================================= */
